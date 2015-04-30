@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3CEE9101AF25391008F249A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CEE90F1AF25391008F249A /* main.m */; };
+		A3CEE9131AF25391008F249A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CEE9121AF25391008F249A /* AppDelegate.m */; };
+		A3CEE9161AF25391008F249A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CEE9151AF25391008F249A /* ViewController.m */; };
+		A3CEE9191AF25391008F249A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CEE9171AF25391008F249A /* Main.storyboard */; };
+		A3CEE91B1AF25391008F249A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CEE91A1AF25391008F249A /* Images.xcassets */; };
+		A3CEE91E1AF25391008F249A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3CEE91C1AF25391008F249A /* LaunchScreen.xib */; };
+		A3CEE92A1AF25391008F249A /* TimesIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CEE9291AF25391008F249A /* TimesIOSTests.m */; };
+		A3CEE93A1AF25585008F249A /* NSDate+helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CEE9391AF25585008F249A /* NSDate+helpers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3CEE9241AF25391008F249A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CEE9021AF25391008F249A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CEE9091AF25391008F249A;
+			remoteInfo = TimesIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3CEE90A1AF25391008F249A /* TimesIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimesIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CEE90E1AF25391008F249A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CEE90F1AF25391008F249A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3CEE9111AF25391008F249A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3CEE9121AF25391008F249A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3CEE9141AF25391008F249A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3CEE9151AF25391008F249A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3CEE9181AF25391008F249A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3CEE91A1AF25391008F249A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3CEE91D1AF25391008F249A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3CEE9231AF25391008F249A /* TimesIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimesIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CEE9281AF25391008F249A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CEE9291AF25391008F249A /* TimesIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimesIOSTests.m; sourceTree = "<group>"; };
+		A3CEE9331AF2543D008F249A /* Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
+		A3CEE9381AF25585008F249A /* NSDate+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+helpers.h"; sourceTree = "<group>"; };
+		A3CEE9391AF25585008F249A /* NSDate+helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+helpers.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3CEE9071AF25391008F249A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CEE9201AF25391008F249A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3CEE9011AF25391008F249A = {
+			isa = PBXGroup;
+			children = (
+				A3CEE90C1AF25391008F249A /* TimesIOS */,
+				A3CEE9261AF25391008F249A /* TimesIOSTests */,
+				A3CEE90B1AF25391008F249A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CEE90B1AF25391008F249A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CEE90A1AF25391008F249A /* TimesIOS.app */,
+				A3CEE9231AF25391008F249A /* TimesIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CEE90C1AF25391008F249A /* TimesIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A3CEE9371AF254FD008F249A /* Date Category */,
+				A3CEE9111AF25391008F249A /* AppDelegate.h */,
+				A3CEE9121AF25391008F249A /* AppDelegate.m */,
+				A3CEE9141AF25391008F249A /* ViewController.h */,
+				A3CEE9151AF25391008F249A /* ViewController.m */,
+				A3CEE9171AF25391008F249A /* Main.storyboard */,
+				A3CEE91A1AF25391008F249A /* Images.xcassets */,
+				A3CEE91C1AF25391008F249A /* LaunchScreen.xib */,
+				A3CEE90D1AF25391008F249A /* Supporting Files */,
+			);
+			path = TimesIOS;
+			sourceTree = "<group>";
+		};
+		A3CEE90D1AF25391008F249A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CEE90E1AF25391008F249A /* Info.plist */,
+				A3CEE90F1AF25391008F249A /* main.m */,
+				A3CEE9331AF2543D008F249A /* Header.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3CEE9261AF25391008F249A /* TimesIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3CEE9291AF25391008F249A /* TimesIOSTests.m */,
+				A3CEE9271AF25391008F249A /* Supporting Files */,
+			);
+			path = TimesIOSTests;
+			sourceTree = "<group>";
+		};
+		A3CEE9271AF25391008F249A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CEE9281AF25391008F249A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3CEE9371AF254FD008F249A /* Date Category */ = {
+			isa = PBXGroup;
+			children = (
+				A3CEE9381AF25585008F249A /* NSDate+helpers.h */,
+				A3CEE9391AF25585008F249A /* NSDate+helpers.m */,
+			);
+			name = "Date Category";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CEE9091AF25391008F249A /* TimesIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CEE92D1AF25391008F249A /* Build configuration list for PBXNativeTarget "TimesIOS" */;
+			buildPhases = (
+				A3CEE9061AF25391008F249A /* Sources */,
+				A3CEE9071AF25391008F249A /* Frameworks */,
+				A3CEE9081AF25391008F249A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimesIOS;
+			productName = TimesIOS;
+			productReference = A3CEE90A1AF25391008F249A /* TimesIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3CEE9221AF25391008F249A /* TimesIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CEE9301AF25391008F249A /* Build configuration list for PBXNativeTarget "TimesIOSTests" */;
+			buildPhases = (
+				A3CEE91F1AF25391008F249A /* Sources */,
+				A3CEE9201AF25391008F249A /* Frameworks */,
+				A3CEE9211AF25391008F249A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CEE9251AF25391008F249A /* PBXTargetDependency */,
+			);
+			name = TimesIOSTests;
+			productName = TimesIOSTests;
+			productReference = A3CEE9231AF25391008F249A /* TimesIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CEE9021AF25391008F249A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "aybek can kaya";
+				TargetAttributes = {
+					A3CEE9091AF25391008F249A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A3CEE9221AF25391008F249A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A3CEE9091AF25391008F249A;
+					};
+				};
+			};
+			buildConfigurationList = A3CEE9051AF25391008F249A /* Build configuration list for PBXProject "TimesIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3CEE9011AF25391008F249A;
+			productRefGroup = A3CEE90B1AF25391008F249A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CEE9091AF25391008F249A /* TimesIOS */,
+				A3CEE9221AF25391008F249A /* TimesIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3CEE9081AF25391008F249A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CEE9191AF25391008F249A /* Main.storyboard in Resources */,
+				A3CEE91E1AF25391008F249A /* LaunchScreen.xib in Resources */,
+				A3CEE91B1AF25391008F249A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CEE9211AF25391008F249A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3CEE9061AF25391008F249A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CEE9161AF25391008F249A /* ViewController.m in Sources */,
+				A3CEE93A1AF25585008F249A /* NSDate+helpers.m in Sources */,
+				A3CEE9131AF25391008F249A /* AppDelegate.m in Sources */,
+				A3CEE9101AF25391008F249A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CEE91F1AF25391008F249A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CEE92A1AF25391008F249A /* TimesIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3CEE9251AF25391008F249A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CEE9091AF25391008F249A /* TimesIOS */;
+			targetProxy = A3CEE9241AF25391008F249A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3CEE9171AF25391008F249A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CEE9181AF25391008F249A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3CEE91C1AF25391008F249A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CEE91D1AF25391008F249A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3CEE92B1AF25391008F249A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3CEE92C1AF25391008F249A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3CEE92E1AF25391008F249A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TimesIOS/Header.pch;
+				INFOPLIST_FILE = TimesIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3CEE92F1AF25391008F249A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TimesIOS/Header.pch;
+				INFOPLIST_FILE = TimesIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3CEE9311AF25391008F249A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimesIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimesIOS.app/TimesIOS";
+			};
+			name = Debug;
+		};
+		A3CEE9321AF25391008F249A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimesIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimesIOS.app/TimesIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3CEE9051AF25391008F249A /* Build configuration list for PBXProject "TimesIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CEE92B1AF25391008F249A /* Debug */,
+				A3CEE92C1AF25391008F249A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CEE92D1AF25391008F249A /* Build configuration list for PBXNativeTarget "TimesIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CEE92E1AF25391008F249A /* Debug */,
+				A3CEE92F1AF25391008F249A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3CEE9301AF25391008F249A /* Build configuration list for PBXNativeTarget "TimesIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CEE9311AF25391008F249A /* Debug */,
+				A3CEE9321AF25391008F249A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CEE9021AF25391008F249A /* Project object */;
+}
